@@ -1,18 +1,30 @@
 body {
 	background-color: #eff8ffff;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
 }
 
-div.content {
+h2 {
+	margin: 10px 0 0 50px;
+}
+
+div.container {
 	background-color: #ffffffff;
 	box-shadow: 4px 4px 16px #00000020;
 	height: 300px;
 	width: 500px;
-	margin: 50px;
+	margin: 10px 50px 30px 50px;
 }
 
-img {
+#first-way > img {
 	width: 100%;
 	height: 100%;
 	object-fit: none;
 	object-position: 50% 50%;
+}
+
+#second-way {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
